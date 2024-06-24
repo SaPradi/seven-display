@@ -17,11 +17,7 @@ const Display: FC<DisplayProps> = ({num}) => {
     ])
     // Metodo para calcular num
     const calNumerDisplay = (value: number) => {
-        const newDisplay = valuesSegments[value] || [
-            [false, false, false],
-            [false, false, false, false]
-        ];
-        setDisplay(newDisplay);
+        setDisplay(valuesSegments[value]);
     };
 
 
