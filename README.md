@@ -106,8 +106,6 @@ Teniendo en cuenta todo lo anterior es mas facil pintarlos, solo es necesita cre
         : 'bg-slate-100'
     }`}
 >
-</div>
-
-    
+</div>    
 ```
 Usando un operador ternario se activa la clase cambiando su color
