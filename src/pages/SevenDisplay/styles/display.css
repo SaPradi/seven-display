@@ -1,0 +1,55 @@
+
+
+.segment-x-a::before,
+.segment-x-b::before,
+.segment-x-c::before
+{
+    content: ' ';
+    position: absolute;
+    left: -.72em;
+    border-top: .76rem solid transparent;
+    border-bottom: .76rem solid transparent;
+    border-right: .76rem solid ;
+}
+
+.segment-x-a::after,
+.segment-x-b::after,
+.segment-x-c::after
+{
+    content: ' ';
+    position: absolute;
+    right: -.73em;
+    border-top: .76rem solid transparent;
+    border-bottom: .76rem solid transparent;
+    border-left: .76rem solid ;
+}
+
+/* apuntando hacia abajo */
+.segment-y-a::before,
+.segment-y-b::before,
+.segment-y-c::before,
+.segment-y-d::before
+{
+    content: ' ';
+    position: absolute;
+    top: -.72em;
+    border-right: .76rem solid transparent;
+    border-left: .76rem solid transparent;
+    border-bottom: .76rem solid ;
+
+}
+/* apuntando hacia abajo */
+.segment-y-a::after,
+.segment-y-b::after,
+.segment-y-c::after,
+.segment-y-d::after
+{
+
+    content: ' ';
+    position: absolute;
+    bottom: -.73em;
+    border-right: .76rem solid transparent;
+    border-left: .76rem solid transparent;
+    border-top: .76rem solid ;
+}
+
